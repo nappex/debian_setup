@@ -15,7 +15,7 @@ $ echo $PS1
 You can change value of variable PS1 without to affect your system configuration.
 
 ```bash
-export PS1="\u@\h > "
+$ export PS1="\u@\h > "
 ```
 When you exit your terminal session your configuration is lost forever. But for trying different looks is fine way to customize.
 
@@ -28,6 +28,12 @@ When you are happy with appearance of your bash prompt. Save your code at the en
 
 ## Use my appearance
 If you are not sure how to customize PS1, just copy code in `.bashrc` file uploaded in this repo and append to your `.bashrc`.
+
+To appear your new customization, is neede to reload your configuration.
+
+```bash
+$ source ~/.bashrc
+```
 
 ### git branch parser
 In code of this repo is defined function `parse_git_branch`. Function call command `git branch` and parse the output of branches with command `sed`.
