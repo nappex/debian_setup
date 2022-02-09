@@ -1,0 +1,14 @@
+[core]
+	editor = vim
+	excludesFile = /home/nap/.gitignore
+[user]
+	name = dstroch
+	email = d.stroch@gmail.com
+[color]
+	ui = true
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
+[merge]
+	conflictstyle = diff3
