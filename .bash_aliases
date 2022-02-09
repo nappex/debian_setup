@@ -1,4 +1,7 @@
+alias gb='git branch'
 alias gss='git status'
+alias gra='git remote add'
+alias gr='git remote -v'
 alias gl='git log --stat'
 alias glo='git log --oneline'
 alias ga='git add'
