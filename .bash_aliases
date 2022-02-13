@@ -1,4 +1,6 @@
 alias gb='git branch'
+alias gsw='git switch'
+alias grs='git restore'
 alias gss='git status'
 alias gra='git remote add'
 alias gr='git remote -v'
