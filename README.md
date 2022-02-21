@@ -1,9 +1,20 @@
-# customize-your-bash
+# Debian Init Setup
+Reproducable setup to every debian bullseye.
+
+This repo is suitable when you reinstall your distro and need to keep environemnt from the old installation.
+
+In future I'd like to add installation/uninstallation script which will ensure to setup the environment automatically.
+
+I will try to explain every step which was necessary to create this configuration. So newbie should be able to update his configuration by his the gusta!
+
+# SHELL
+The configuration is setup and tested on `bash`.
+
+## How customize your bash
 Customize look of your bash prompt with emoji
 
 emoji can be found on this URL https://emojipedia.org/. Just copy and paste your choosed emoji
 
-# How customize your bash
 To customize your bash is necessary update your system variable PS1.
 
 You can check value of this variable
@@ -42,10 +53,10 @@ In code of this repo is defined function `parse_git_branch`. Function call comma
 ### emoji
 There is added emoji in git part for better readability as sign of two arrows. The sign is at the end of `sed` command.
 
-# Tests
+## Tests
 Appearance of bash prompt was test on Debian.
 
-# Useful links
+## Useful links
 If you like to learn how to customize looks of your bash, check links below.
 
 1. https://tynick.com/blog/06-12-2019/how-to-change-your-ps1-bash-prompt-and-add-emojis/
